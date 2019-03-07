@@ -1,0 +1,239 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="utf-8">
+    <title>Нёрдс</title>
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/styles.css">
+    <link href="https://fonts.googleapis.com/css?family=Roboto:400,700" rel="stylesheet">
+</head>
+
+<body>
+    <header class="page-header">
+        <div class="main-header">
+            <div class="container">
+                <div class="row-1">
+                    <a class="main-logo" href="#">
+                        <img src="img/nerds-logo.png" width="160px" height="65px">
+                    </a>
+                    <div class="header-link">
+                        <nav class="main-nav">
+                            <ul class="nav-list">
+                                <li>
+                                    <a href="#">Студия</a>
+                                </li>
+                                <li>
+                                    <a href="#">Клиенты</a>
+                                </li>
+                                <li>
+                                    <a href="#">Магазин</a>
+                                </li>
+                                <li>
+                                    <a href="#">Контакты</a>
+                                </li>
+                            </ul>
+                        </nav>
+                        <div class="basket">
+                            <a class="basket-link" href="#rwer">Корзина</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <h1 class="main-header__title">Магазин готовых шаблонов</h1>
+    </header>
+    <main class="page-main">
+        <div class="container">
+            <div class="catalog-tools">
+                <form class="sidebar">
+                    <span class="sildeber-filter__title">стоимость:</span>
+                    <div class="sideber__point">
+                        <div class="point point-min "></div>
+                        <div class="point point-max"></div>
+                    </div>
+                    <label class="sideber__label label-min">от
+                        <input class="sideber__input" type="text" name="prices-min">
+                    </label>
+                    <label class="sideber__label label-max">до
+                        <input class="sideber__input" type="text" name="prices-max">
+                    </label>
+                    <div class="sideber-filter">
+                        <span class="sildeber-filter__title">сетка:</span>
+                        <ul class="sildeber-filter__list">
+                            <li class="sildeber-filter__item">
+                                <input class="sildeber-radio__input visual-hiden" type="radio" value="accumulator" name="supply" id="rd1">
+                                <label class="sildeber-filter__label" for="rd1">Адаптивная</label>
+                            </li>
+                            <li class="sildeber-filter__item">
+                                <input class="sildeber-radio__input visual-hiden " type="radio" value="accumulator" name="supply" id="rd2" checked>
+                                <label class="sildeber-filter__label" for="rd2">Фиксированная</label>
+                            </li>
+                            <li class="sildeber-filter__item">
+                                <input class="sildeber-radio__input visual-hiden " type="radio" value="accumulator" name="supply" id="rd3">
+                                <label class="sildeber-filter__label" for="rd3">Резиновая</label>
+                            </li>
+                        </ul>
+                        <span class="sildeber-filter__title">ОСОБЕННОСТИ:</span>
+                        <ul class="sildeber-filter__list">
+                            <li class="sildeber-filter__item">
+                                <input class="sildeber-checkbox__input visual-hiden" type="checkbox" value="accumulator" name="supply" id="cb1">
+                                <label class="sildeber-filter__label" for="cb1">Слайдер</label>
+                            </li>
+                            <li class="sildeber-filter__item">
+                                    <input class=" sildeber-checkbox__input visual-hiden" type="checkbox" checked id="cb2" value="accumulator" name="supply">
+                                     <label class="sildeber-filter__label" for="cb2">Блок преимуществ</label>
+                            </li>
+                            <li class="sildeber-filter__item">
+                                
+                                    <input class=" sildeber-checkbox__input visual-hiden" type="checkbox" value="accumulator" name="supply" id="cb3">
+                                    <label class="sildeber-filter__label" for="cb3">Новости</label>
+                            </li>
+                            <li class="sildeber-filter__item">
+                                    <input class=" sildeber-checkbox__input visual-hiden" type="checkbox" value="accumulator" name="supply" id="cb4">
+                                    <label class="sildeber-filter__label" for="cb4">Галерея</label>
+                            </li>
+                            <li class="sildeber-filter__item">
+                                    <input class=" sildeber-checkbox__input visual-hiden" id="cb5" type="checkbox" value="accumulator" name="supply">
+                                     <label class="sildeber-filter__label" for="cb5">Корзина</label>
+                            </li>
+                        </ul>
+                    </div>
+                    <button class="sidebar__button">показать</button>
+                </form>
+                <div class="page-catalog">
+                    <div class="sorting">
+                        <span class="sildeber-filter__title">сортировать:</span>
+                        <ul class="sorting__list">
+                            <li class="sorting__item">
+                                <a class="sorting__link" href="#">по цене</a>
+                            </li>
+                            <li class="sorting__item">
+                                <a class="sorting__link" href="#">по типу</a>
+                            </li>
+                            <li class="sorting__item">
+                                <a class="sorting__link" href="#">по названию</a>
+                            </li>
+                            <li class="sorting__item">
+                                <a class="sorting-down" href="#">вверх</a>
+                            </li>
+                            <li class="sorting__item">
+                                <a class="sorting-up" href="#">вниз</a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="page-catalog__item">
+                       <div class="browser"></div>
+                        <img class="page-catalog__img" src="img/img-sedona.jpg" width="360" height="576" alt="Информационный сайт для туристов SEDONA">
+                        <div class="actions">
+                            <span class="actions__title">SEDONA</span>
+                            <p class="actions__text">Информационный сайт<br> для туристов</p>
+                            <a href="#" class="actions__link">9 900 РУБ.</a>
+                        </div>
+                    </div>
+                    <div class="page-catalog__item">
+                        <div class="browser"></div>
+                        <img class="page-catalog__img" src="img/img-pink.jpg" width="360" height="576" alt="Продуктовый лендинг PINK APP">
+                         <div class="actions">
+                            <span class="actions__title">PINK APP</span>
+                            <p class="actions__text">Продуктовый лендинг<br> приложений для IOS и Android</p>
+                            <a href="#" class="actions__link">9 900 РУБ.</a>
+                        </div>
+                    </div>
+                    <div class="page-catalog__item">
+                        <div class="browser"></div>
+                        <img class="page-catalog__img" src="img/img-barbershop.jpg" width="360" height="576" alt="Сайт салона красоты.">
+                         <div class="actions">
+                            <span class="actions__title">Barbershop</span>
+                            <p class="actions__text">Сайт салона красоты.<br> Для мужчин, да.</p>
+                            <a href="#" class="actions__link">9 900 РУБ.</a>
+                        </div>
+                    </div>
+                    <div class="page-catalog__item">
+                        <div class="browser"></div>
+                        <img class="page-catalog__img" src="img/img-mishka.jpg" width="360" height="576" alt="Интернет-магазин вязаных игрушек">
+                         <div class="actions">
+                            <span class="actions__title">MISHKA</span>
+                            <p class="actions__text">Интернет-магазин<br> вязаных игрушек</p>
+                            <a href="#" class="actions__link">9 900 РУБ.</a>
+                        </div>
+                    </div>
+                    <div class="page-catalog__item">
+                        <div class="browser"></div>
+                        <img class="page-catalog__img" src="img/img-aplus.jpg"  width="360" height="576" alt="Лендинг курсов повышения">
+                     <div class="actions">
+                            <span class="actions__title">A PLUS</span>
+                            <p class="actions__text">Лендинг курсов повышения<br> квалификации</p>
+                            <a href="#" class="actions__link">9 900 РУБ.</a>
+                        </div>
+                    </div>
+                    <div class="page-catalog__item">
+                        <div class="browser"></div>
+                        <img class="page-catalog__img" src="img/img-kvast.jpg" width="360" height="576" alt="Промо-сайт производителя кваса<">
+                     <div class="actions">
+                            <span class="actions__title">Квас</span>
+                            <p class="actions__text">Промо-сайт производителя<br> крафтового кваса</p>
+                            <a href="#" class="actions__link">9 900 РУБ.</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="scroll">
+            <ul class="scroll__list">
+                <li class="scroll__item">
+                    <a class="scroll__link" href="#" >1</a>
+                </li>
+                 <li class="scroll__item">
+                    <a class="scroll__link" href="#">2</a>
+                </li>
+                 <li class="scroll__item">
+                    <a class="scroll__link" href="#">3</a>
+                </li>
+                 <li class="scroll__item">
+                    <a class="scroll__link next-page" href="#">следующая</a>
+                </li>
+            </ul>
+        </div>
+    </main>
+    <footer>
+        <div class="bottom-map">
+            <div class="footer-map">
+                <img src="img/%D0%A1%D0%BB%D0%BE%D0%B9%202.jpg">
+            </div>
+            <div class="map-form">
+                <p class="form-title">NЁRDS DESIGN STUDIO</p>
+                <p>191186, Санкт-Петербург, ул. Б. Конюшенная, д. 19/8</p>
+                <p class="tel">тел. +7 (812) 275-75-75</p>
+                <button class="form-button">напишите нам</button>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <div class="social">
+                <ul class="social__list">
+                    <li>
+                        <a class="social_link button-vk" href="#">
+                            <span class="visual-hiden">Вконтакте</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a class="social_link button-fk" href="#">
+                            <span class="visual-hiden">Фэйсбук</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a class="social_link button-inst" href="#">
+                            <span class="visual-hiden">Инстограмм</span>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+            <div>
+                <p class="footer-title">Давайте дружить, это выгодно!</p>
+                <p class="footer-text">Скидка 10% для друзей из социальных сетей.</p>
+            </div>
+        </div>
+    </footer>
+</body>
+
+</html>
